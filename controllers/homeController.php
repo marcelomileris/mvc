@@ -3,11 +3,7 @@
 
         public function index() {
 
-            $params = array(
-                "info" => "Marcelo Mileris"
-            );
-            
-            $this->loadTemplate("home", $params);
+            $this->loadView("home");
         }
         
     }
